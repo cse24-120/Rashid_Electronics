@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>All Products |Rashid | Electronics</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+       
+    
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Images/Logo/Rashid Electronics 2.0.png" width="225px" alt="logo">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="AboutUs.html">AboutUs</a></li>
+                    <li><a href="ContactUs.html">ContactUs</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="Cart.html">
+            <img src="Icons/cart-regular-24.png" width="30px" height="30px" alt="">
+            </a>
+            <img src="Icons/menu-regular-24.png" class="menu-icon" onclick="menutoggle()">
+
+        </div>   
+       </div>
+   
+
+
+
+    <div class="small-container">
+
+        <div class="row row-2">
+            <h2>All Products</h2>
+
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by Price</option>
+            </select>
+
+        </div>
+        <div class="row">
+            <div class="col4">
+                <a href="ASUS TUF Gaming A15.html"><img src="Images/Laptops/ASUS TUF Gaming A15 Laptop 1.webp"></a>
+                <h4>ASUS TUF Gaming A15 Laptop</h4>
+                <p>50BWP</p>
+            </div>
+            <div class="col4">
+                <a href="Lenovo IdeaPad 3.html"><img src="Images/Laptops/Lenovo IdeaPad 3  1.jpg"></a>
+                <h4>Lenovo IdeaPad 3</h4>
+                <p>50BWP</p>
+            </div>
+            <div class="col4">
+                <a href="Sky Tech Archangel Gaming Pc.html"><img src="Images/Desktop/SkyTech Archangel Gaming PC Desktop 1.webp"></a>
+                <h4>SkyTech Archangel Gaming PC Desktop</h4>
+                <p>50BWP</p>
+            </div>
+            <div class="col4">
+                <a href="Sky Tech Rampage Gaming Pc.html"><img src="Images/Desktop/SkyTech Rampage Gaming PC Desktop 1.webp"></a>
+                <h4>SkyTech Rampage Gaming PC Desktop</h4>
+                <p>50BWP</p>
+            </div>
+            <div class="col4">
+                <a href="CRUA Gaming Monitor.html"><img src="Images/Monitors/CRUA Gaming Monitor 1.webp"></a>
+                <h4>CRUA Gaming Monitor</h4>
+                <p>50BWP</p>
+            </div>
+            <div class="col4">
+                <a href="Sceptre Gaming Monitor.html"><img src="Images/Monitors/Sceptre Gaming Monitor 1.webp"></a>
+                <h4>Sceptre Gaming Monitor</h4>
+                <p>50BWP</p>
+            </div>
+            <div class="col4">
+                <a href="Corsair K70 RGB Pro Machanical Keyboard.html"><img src="Images/Keyboards/Corsair K70 RGB PRO Mechanical Wired Gaming Keyboard 1.webp"></a>
+                <h4>Corsair K70 RGB PRO Mechanical Wired Gaming Keyboard</h4>
+                <p>50BWP</p>
+            </div>
+            <div class="col4">
+                <a href="Logitech MX Keyboard.html"><img src="Images/Keyboards/Logitech MX Machanical Wireless Keyboard 1.jpg"></a>
+                <h4>Logitech MX Machanical Wireless Keyboard</h4>
+                <p>50BWP</p>
+            </div>
+        </div> 
+        <div class="page-btn">
+            <a href="Products.html"><span>1</span></a>
+            <a href="Products2.html"><span>2</span></a>
+            <a href="Products3.html"><span>3</span></a>
+            <a href="Products4.html"><span>4</span></a>
+
+        </div>
+        
+
+    </div>
+
+    <!----footer---->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col1">
+                    <img src="Images/Logo/Rashid Electronics 2.0.png">
+                    <p>apa ndinofanira kunyora purpose ye company edu kuti inotengesa ma gaming computer kuti vanhu vaporese fungwa kk</p>
+                </div>
+                <div class="footer-col2">
+                    <h3>Useful Links:</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Deals</li>
+                    </ul>
+                </div>
+                <div class="footer-col3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2025 | Rashid | Electronics</p>
+        </div>
+    </div>
+
+
+
+    
+
+
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-----java script for menu btn-->
+        <script>
+
+            var MenuItems = document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight ="0px"
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight =="0px"){
+                    MenuItems.style.maxHeight ="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+
+        
+        <script src="" async defer></script>
+    </body>
+</html>

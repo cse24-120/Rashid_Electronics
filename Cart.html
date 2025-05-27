@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>All Products |Rashid | Electronics</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+       
+    
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="Images/Logo/Rashid Electronics 2.0.png" width="225px" alt="logo"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="AboutUs.html">AboutUs</a></li>
+                    <li><a href="ContactUs.html">ContactUs</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="">
+            <img src="Icons/cart-regular-24.png" width="30px" height="30px" alt="">
+            </a>
+            <img src="Icons/menu-regular-24.png" class="menu-icon" onclick="menutoggle()">
+
+        </div>   
+       </div>
+
+
+
+<!----Cart---->
+
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>SubTotal</th>
+
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="Images/Laptops/Asus ROG Strix Gaming Laptop 1.jpg">
+                    <div>
+                        <p>Asus ROG Strix Gaming Laptop</p>
+                        <small>Price:5,000BWP</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>5,000BWP</td>
+
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="Images/Desktop/MXZ Gaming Desktop PC 1.webp">
+                    <div>
+                        <p>MXZ Gaming Desktop PC</p>
+                        <small>Price:5,000BWP</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>5,000BWP</td>
+
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="Images/Monitors/CRUA Gaming Monitor 1.webp">
+                    <div>
+                        <p>CRUA Gaming Monitorp</p>
+                        <small>Price:5,000BWP</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>5,000BWP</td>
+
+        </tr>
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>SubTotal</td>
+                <td>5,000BWP</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>5,000BWP</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>5,000BWP</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+    <!----footer---->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col1">
+                    <img src="Images/Logo/Rashid Electronics 2.0.png">
+                    <p>apa ndinofanira kunyora purpose ye company edu kuti inotengesa ma gaming computer kuti vanhu vaporese fungwa kk</p>
+                </div>
+                <div class="footer-col2">
+                    <h3>Useful Links:</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Deals</li>
+                    </ul>
+                </div>
+                <div class="footer-col3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2025 | Rashid | Electronics</p>
+        </div>
+    </div>
+
+
+
+    
+
+
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-----java script for menu btn-->
+        <script>
+
+            var MenuItems = document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight ="0px"
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight =="0px"){
+                    MenuItems.style.maxHeight ="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+
+        
+
+
+        
+        <script src="" async defer></script>
+    </body>
+</html>
